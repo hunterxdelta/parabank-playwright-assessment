@@ -139,6 +139,17 @@ Screenshots are also captured automatically if a test fails.
 
 ---
 
+## Screen Recording
+
+A complete execution recording of the automation framework is available below.
+
+**Execution Recording:**
+
+https://drive.google.com/file/d/1yC_K6wan3RhQVK58n33JRJBWdybekf39/view?usp=drive_link
+
+
+---
+
 ## Logging
 
 Execution logs are generated using Winston and stored in:
