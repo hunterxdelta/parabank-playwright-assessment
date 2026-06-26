@@ -1,0 +1,70 @@
+[2026-06-26 21:05:07] info: ============================
+[2026-06-26 21:05:07] info:   TEST SUITE STARTED
+[2026-06-26 21:05:07] info:   ENV: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+[2026-06-26 21:05:07] info: ============================
+[2026-06-26 21:05:07] info: ▶ SCENARIO: "Register a new user and verify account balance"
+[2026-06-26 21:05:07] info: Launching chromium | headless=false
+[2026-06-26 21:05:08] info: Browser ready
+[2026-06-26 21:05:08] info: Navigating to: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+[2026-06-26 21:05:11] info: Home page loaded
+[2026-06-26 21:05:11] info: Opening registration page
+[2026-06-26 21:05:12] info: Generated username: yuguser1782488112208
+[2026-06-26 21:05:12] info: Registering user: yuguser1782488112208
+[2026-06-26 21:05:12] info: Filling "First Name" with "Yug"
+[2026-06-26 21:05:12] info: Filling "Last Name" with "D"
+[2026-06-26 21:05:12] info: Filling "Address" with "123 Test Street"
+[2026-06-26 21:05:12] info: Filling "City" with "Pune"
+[2026-06-26 21:05:12] info: Filling "State" with "Maharashtra"
+[2026-06-26 21:05:12] info: Filling "Zip Code" with "440561"
+[2026-06-26 21:05:12] info: Filling "Phone" with "9999999999"
+[2026-06-26 21:05:12] info: Filling "SSN" with "123456789"
+[2026-06-26 21:05:12] info: Filling "Username" with "yuguser1782488112208"
+[2026-06-26 21:05:12] info: Filling "Password" with "Test@1234"
+[2026-06-26 21:05:12] info: Filling "Confirm Password" with "Test@1234"
+[2026-06-26 21:05:12] info: Clicking: Register button
+[2026-06-26 21:05:13] info: Registration successful: Welcome yuguser1782488112208
+[2026-06-26 21:05:13] info: Registration successful
+[2026-06-26 21:05:13] info: Opening new bank account
+[2026-06-26 21:05:14] info: Clicking: Open New Account button
+[2026-06-26 21:05:15] info: New account created: 29328
+[2026-06-26 21:05:15] info: Clicking: New account link
+[2026-06-26 21:05:18] info: Account balance: $100.00
+[2026-06-26 21:05:18] info: Account Balance: $100.00
+[2026-06-26 21:05:18] info: Screenshot saved to screenshots/Account_Balance_2026-06-26T15-35-18-280Z.png
+[2026-06-26 21:05:18] info: Balance page screenshot captured
+[2026-06-26 21:05:18] info: ✔ PASSED: "Register a new user and verify account balance"
+[2026-06-26 21:05:18] info: Browser closed
+[2026-06-26 21:05:18] info: ▶ SCENARIO: "Registered user can logout and log back in"
+[2026-06-26 21:05:18] info: Launching chromium | headless=false
+[2026-06-26 21:05:18] info: Browser ready
+[2026-06-26 21:05:19] info: Navigating to: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+[2026-06-26 21:05:22] info: Home page loaded
+[2026-06-26 21:05:22] info: Opening registration page
+[2026-06-26 21:05:23] info: Generated username: yuguser1782488123279
+[2026-06-26 21:05:23] info: Registering user: yuguser1782488123279
+[2026-06-26 21:05:23] info: Filling "First Name" with "Yug"
+[2026-06-26 21:05:23] info: Filling "Last Name" with "D"
+[2026-06-26 21:05:23] info: Filling "Address" with "123 Test Street"
+[2026-06-26 21:05:23] info: Filling "City" with "Pune"
+[2026-06-26 21:05:23] info: Filling "State" with "Maharashtra"
+[2026-06-26 21:05:23] info: Filling "Zip Code" with "440561"
+[2026-06-26 21:05:23] info: Filling "Phone" with "9999999999"
+[2026-06-26 21:05:23] info: Filling "SSN" with "123456789"
+[2026-06-26 21:05:23] info: Filling "Username" with "yuguser1782488123279"
+[2026-06-26 21:05:23] info: Filling "Password" with "Test@1234"
+[2026-06-26 21:05:23] info: Filling "Confirm Password" with "Test@1234"
+[2026-06-26 21:05:23] info: Clicking: Register button
+[2026-06-26 21:05:24] info: Registration successful: Welcome yuguser1782488123279
+[2026-06-26 21:05:24] info: Registration successful
+[2026-06-26 21:05:24] info: Logging out
+[2026-06-26 21:05:24] info: Clicking: Logout link
+[2026-06-26 21:05:25] info: Logout successful
+[2026-06-26 21:05:25] info: Logging in with user: yuguser1782488123279
+[2026-06-26 21:05:25] info: Filling "Username" with "yuguser1782488123279"
+[2026-06-26 21:05:25] info: Filling "Password" with "Test@1234"
+[2026-06-26 21:05:26] info: Clicking: Login button
+[2026-06-26 21:05:28] info: Login successful
+[2026-06-26 21:05:28] info: Account Overview balance post-login: $515.50
+[2026-06-26 21:05:28] info: ✔ PASSED: "Registered user can logout and log back in"
+[2026-06-26 21:05:28] info: Browser closed
+[2026-06-26 21:05:28] info: ============================
