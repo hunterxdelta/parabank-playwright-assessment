@@ -30,10 +30,6 @@ When('user fills in the registration form', async function (this: CustomWorld) {
   await registerPage.registerUser(username, password);
 });
 
-When('user submits the registration form', async function () {
-  // Form submission is handled inside registerUser()
-});
-
 Then('user should be registered and logged in successfully', async function (this: CustomWorld) {
   const registerPage = new RegisterPage(this.page);
 
